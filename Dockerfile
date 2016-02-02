@@ -5,8 +5,8 @@ ENV ES_HEAP_SIZE=1024m
 ENV ES_JAVA_OPTS=" \
   -server \
   -Djava.net.preferIPv4Stack=true \
-  -Xms25160m \
-  -Xmx25160m \
+  -Xms1024m \
+  -Xmx1024m \
   -Xss256k \
     -XX:+UseParNewGC \
   -XX:+UseConcMarkSweepGC \
