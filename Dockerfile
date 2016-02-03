@@ -1,4 +1,4 @@
-FROM elasticsearch:2.1.0
+FROM elasticsearch:2.2.0
 
 ENV ES_HEAP_SIZE=1024m
 
